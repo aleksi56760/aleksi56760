@@ -39,5 +39,17 @@ a {
 }
 
 div {
-    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+@keyframes div {
+    from {border-radius: 0px;}
+    to {border-radius: 30px;}
+}
+
+div > div:hover {
+    border-radius: 30px;
+    animation-name: div;
+    animation-duration: 30ms;
 }
