@@ -43,13 +43,23 @@ div {
     margin: 20px;
 }
 
-@keyframes div {
+@keyframes ani {
     from {border-radius: 0px;}
     to {border-radius: 30px;}
 }
 
-div > div:hover {
-    border-radius: 30px;
-    animation-name: div;
-    animation-duration: 30ms;
+@keyframes ani2 {
+    from {border-radius: 30px;}
+    to {border-radius: 0px;}
+}
+
+div:hover {
+    animation-name: ani;
+    animation-duration: 300ms;
+}
+
+div {
+    border-radius: 0px;
+    animation-name: ani2;
+    animation-duration: 300ms;
 }
