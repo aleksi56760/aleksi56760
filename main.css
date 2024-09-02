@@ -37,29 +37,3 @@ label {
 a {
     color: #ff00ff;
 }
-
-div {
-    padding: 10px;
-    margin: 20px;
-}
-
-@keyframes ani {
-    from {border-radius: 0px;}
-    to {border-radius: 30px;}
-}
-
-@keyframes ani2 {
-    from {border-radius: 30px;}
-    to {border-radius: 0px;}
-}
-
-div:hover {
-    animation-name: ani;
-    animation-duration: 300ms;
-}
-
-div {
-    border-radius: 0px;
-    animation-name: ani2;
-    animation-duration: 300ms;
-}
