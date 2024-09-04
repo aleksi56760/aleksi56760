@@ -5,11 +5,11 @@ div {
 
 @keyframes ani {
     from {border-radius: 0px;}
-    to {border-radius: 30px;}
+    to {border-radius: 90px;}
 }
 
 @keyframes ani2 {
-    from {border-radius: 30px;}
+    from {border-radius: 90px;}
     to {border-radius: 0px;}
 }
 
