@@ -25,3 +25,19 @@ div {
     animation-duration: 300ms;
     animation-fill-mode: both;
 }
+
+#fname {
+    cursor: text;
+}
+
+#lname {
+    cursor: text;
+}
+
+#buton {
+    cursor: pointer;
+}
+
+.button {
+    cursor: pointer;
+}

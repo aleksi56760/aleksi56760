@@ -38,6 +38,18 @@ a {
     color: #ff00ff;
 }
 
-input {
+#fname {
+    cursor: text;
+}
+
+#lname {
+    cursor: text;
+}
+
+#buton {
+    cursor: pointer;
+}
+
+.button {
     cursor: pointer;
 }
