@@ -2,6 +2,7 @@ body {
     font-family: "Papyrus", "Courier New", monospace;
     text-align: center;
     font-size: 150%;
+    margin-top: 100px;
 }
 
 p {
@@ -17,4 +18,42 @@ input {
 
 div {
     border-radius: 10px;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+h1 {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#bottomtext {
+    position: fixed;
+    left: 10px;
+    right: 0;
+    bottom: 5px;
+    text-align: left;
+    margin: auto;
+}
+
+#bottomtext-w {
+    position: fixed;
+    left: 10px;
+    right: 0;
+    bottom: 5px;
+    text-align: left;
+    margin: auto;
+}
+
+.bottomtextcolor {
+    color: #505050;
+    background-color: #191919;
+}
+
+.bottomtextcolor-w {
+    color: #dbdbdb;
+    background-color: #ffffff;
 }

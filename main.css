@@ -53,3 +53,17 @@ a {
 .button {
     cursor: pointer;
 }
+
+#bottomtext {
+    position: fixed;
+    left: 10px;
+    right: 0;
+    bottom: 5px;
+    text-align: left;
+    margin: auto;
+}
+
+.bottomtextcolor {
+    color: #505050;
+    background-color: #191919;
+}
