@@ -37,3 +37,7 @@ label {
 a {
     color: #ff00ff;
 }
+
+input {
+    cursor: pointer;
+}
